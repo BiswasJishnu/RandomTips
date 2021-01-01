@@ -12,6 +12,7 @@ class App extends React.Component {
   }
 
   fetchTips = () => {
+    //refer to https://api.adviceslip.com/ to know more
     axios.get('https://api.adviceslip.com/advice')
       .then((response) => {
         const {advice} = response.data.slip;
@@ -27,7 +28,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <h1>{this.state.tips}</h1>
+      <div>
+        <h1>Random Tips App </h1>
+        <p>Browse when bored</p>
+        <h3>{this.state.tips}</h3>
+      </div>
     )
   }
 }
