@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div className="app">
         <div className="card">
-          <h3 className="heading">{this.state.tips}</h3>
+          <h3 className="tipText">{this.state.tips}</h3>
         </div>
       </div>
     )
