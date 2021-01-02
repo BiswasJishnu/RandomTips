@@ -27,10 +27,14 @@ class App extends React.Component {
 
 
   render() {
+    const {tips} = this.state;
     return (
       <div className="app">
         <div className="card">
-          <h3 className="tipText">{this.state.tips}</h3>
+          <h3 className="tipText">{tips}</h3>
+          <button className="button" onClick={this.fetchTips}>
+            <span>Generate New</span>
+          </button>
         </div>
       </div>
     )
