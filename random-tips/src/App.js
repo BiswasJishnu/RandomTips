@@ -28,10 +28,10 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Random Tips App </h1>
-        <p>Browse when bored</p>
-        <h3>{this.state.tips}</h3>
+      <div className="app">
+        <div className="card">
+          <h3 className="heading">{this.state.tips}</h3>
+        </div>
       </div>
     )
   }
