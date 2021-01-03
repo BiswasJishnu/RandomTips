@@ -18,3 +18,20 @@
 * [Advice Slip JSON API](https://api.adviceslip.com/)
 > * API URL : https://api.adviceslip.com/advice
 > * HTTP Method : GET
+
+<br> 
+
+### Instructions to run application
+
+* Install all dependencies 
+
+```html
+cd RandomTips/random-tips
+npm install
+```
+
+* Start the application
+
+```html
+npm start
+```
