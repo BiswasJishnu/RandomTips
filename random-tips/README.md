@@ -8,6 +8,7 @@
 
 <br>
 
-### Api 
-* Advice Slip Json Api
-> Api URL : https://api.adviceslip.com/advice
+### API 
+* Advice Slip JSON API
+> API URL : https://api.adviceslip.com/advice
+> HTTP Method : GET
