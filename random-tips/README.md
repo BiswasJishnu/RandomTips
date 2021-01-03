@@ -10,5 +10,5 @@
 
 ### API 
 * Advice Slip JSON API
-> API URL : https://api.adviceslip.com/advice
-> HTTP Method : GET
+> * API URL : https://api.adviceslip.com/advice
+> * HTTP Method : GET
