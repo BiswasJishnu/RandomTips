@@ -9,7 +9,7 @@
 <br>
 
 ### NPM Packages 
-* [axios](https://www.npmjs.com/package/axios0
+* [axios](https://www.npmjs.com/package/axios)
 > npm install --save axios
 
 <br>
